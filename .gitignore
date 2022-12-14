@@ -1,5 +1,6 @@
 .ipynb_checkpoints
 processed
 raw
+logs
 logs.log
 sas_log
