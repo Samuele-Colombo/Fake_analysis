@@ -1,0 +1,1 @@
+START=$(ls -r1 processed/| wc -l) && watch -bdt -n 30 "date && echo 'START:\t' $START && echo 'NOW:\t' $(ls -r1 processed/ | wc -l) && echo 'TARGET:\t' $(ls -r1 raw/ | wc -l) && echo 'SIZE:\t' $(du -h processed/)"
