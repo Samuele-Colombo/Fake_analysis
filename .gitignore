@@ -4,3 +4,6 @@ raw
 logs
 logs.log
 sas_log
+bin
+lib
+pyvenv.cfg
